@@ -35,4 +35,7 @@ plot(INJURIES_DIRECT~DEATHS_DIRECT,data=storms)
 boxplot(storms$INJURIES_DIRECT~storms$MONTH_NAME)
 pairs(storms) # Does all pair plots for looking at correlation
 
-install.packages("dataRetrieval") #Appears to be not working
+install.packages("dataRetrieval")
+library(dataRetrieval)
+
+install.packages("shiny")
